@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV, Alexander Lescovets</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="main-page">
+    <!-- HEADER -->
+    <header class="header">
+        <div class="header-container">
+            <nav class="nav">
+                <a href="#about">About me</a>
+                <a href="#contacts">Contacts</a>
+                <a href="#skills">Skills</a>
+                <a href="#education">Education</a>
+                <a href="#languages">Languages</a>
+                <a href="#code">Code</a>
+                <a href="#prj">Projects</a>
+            </nav>
+        </div>
+    </header>
+    <!-- MAIN -->
+    <main class="main">
+        <div class="main-container">
+            <!-- SECTION INTRO -->
+            <section class="section-intro">
+                <div class="section-intro__photo">
+                    <h1 class="title">Alexander Lescovets</h1>
+                    <img src="img/photo.jpg" alt="My photo">
+                    <p>Future Junior Frontend Developer</p>
+                </div>
+                <div class="section-intro__text">
+                    <div class="section-intro__about-me">
+                        <div class="caption" id="about"><h2>About me</h2></div>
+                        <p>
+                            Currently work at the <a href="https://www.polymir.by/be/" target="_blank">OJC “Naftan”, “Polymir”</a> plant as a software engineer since 2015, but I want to change my jobs, be useful for community and really enjoy it. That’s why I started studying at RS-School.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <!-- //SECTION INTRO -->
+            <!-- SECTION CONTACTS & SKILLS -->
+            <section class="section-contacts-skills">
+                <div class="section-contacts">
+                    <div class="caption" id="contacts"><h2>Contacts</h2></div>
+                    <ul class="contacts-list">
+                        <li> <img src="img/ico/location.png" alt="Location">
+                            <a href="https://yandex.by/maps/geo/53170816/?ll=28.607394%2C55.545302&z=12" target="_blank">Novopolotsk, Belarus</a></li>
+                        <li><img src="img/ico/tg.png" alt="Telegram"> <a href="https://t.me/A11e5" target="_blank">A11e5</a></li>
+                        <li><img src="img/ico//github.png" alt="Github">
+                            <a href="https://github.com/A11e5" target="_blank">A11e5</a></li>
+                        <li><img src="img/ico/discord.png" alt="Discord">@A11e5</li>
+                        <li><img src="img/ico/instagram.png" alt="Instagram">
+                            <a href="https://www.instagram.com/A11es" target="_blank">A11es</a></li>
+                        <li>
+                            <img src="img/ico/vk.png" alt="VK">
+                            <a href="https://vk.com/lescovets" target="_blank">Lescovets
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="section-skills">
+                    <div class="caption" id="skills"><h2>Skills</h2></div>
+                    <ul class="skills-list">
+                        <li><img src="img/ico/html.png" alt="HTML">HTML 5</li>
+                        <li><img src="img/ico/css.png" alt="CSS">CSS 3</li>
+                        <li><img src="img/ico/js.png" alt="JavaScript">JavaScript</li>
+                        <li><img src="img/ico/github.png" alt="Github">Git/Github (basics)</li>
+                        <li>Graphic Editors:
+                            <ul>
+                                <li><img src="img/ico/photoshop.png" alt="Photoshop">Adobe Photoshop</li>
+                                <li><img src="img/ico/figma.png" alt="Figma">Figma</li>
+                            </ul>
+                        </li>
+                        <li>Code Editors:
+                            <ul>
+                                <li><img src="img/ico/sublime.png" alt="Sublime">Sublime Text</li>
+                                <li><img src="img/ico/vscode.png" alt="VSCode">VSCode</li>
+                                <li><img src="img/ico/pycharm.png" alt="pyCharm">PyCharm</li>
+                            </ul>
+                        </li>
+                        <li><img src="img/ico/python.png" alt="Python">Python (basics)</li>
+                    </ul>
+                </div>
+            </section>
+            <!-- EDUCATION & LANGUAGES -->
+            <section class="section-education-languages">
+                <div class="section-education">
+                    <div class="caption" id="education"><h2>Education</h2></div>
+                    <ul>
+                        <li>Polotsk Agrarian & Economic College (2006-2010, Technician)</li>
+                        <li>Polotsk State Univercity (2010-2014, Software Engineer)</li>
+                        <li>Courses:
+                            <ul>
+                                <li>Learn.JavaScript.ru (in progress)</li>
+                                <li>RS School (in progress)</li>
+                                <li>Various free courses on Stepik.org</li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="section-languages">
+                    <div class="caption" id="languages"><h2>Languages</h2></div>
+                    <ul class="languages">
+                        <li><img src="img/ico/ru.png" alt="RU">Russian (native)</li>
+                        <li><img src="img/ico/by.png" alt="BY">Belorussian</li>
+                        <li><img src="img/ico/en.png" alt="EN">English (A2, I hope :))</li>
+                    </ul>
+                </div>
+            </section>
+            <!-- CODE & PROJECTS-->
+            <section class="section-code">
+                <div class="caption" id="code"><h2>Code Example</h2></div>
+                <p>Write a function that returns only the decimal part of the given number.</p>
+                <div class="code">
+                    <p>
+                        function getDecimal(n){<br>
+                            if (Math.abs(n) &lt; 1) {<br>
+                                return Math.abs(n);<br>
+                            }<br>
+                                let result = Math.abs(n) - Math.floor(Math.abs(n));<br>
+                                return result;<br>
+                        }
+                    </p>
+                </div>
+                <!----->
+                <div class="projects">
+                    <div class="caption" id="prj"><h2>Projects</h2></div>
+                    <ul>
+                        <li><a class="nav" href="https://a11e5.github.io/rsschool-cv/cv">CV</a></li>
+                    </ul>
+                </div>
+                <!----->
+                
+            </section>
+
+        </div>
+
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-github-logo">
+                <a href="https://github.com/A11e5"><img src="img/github.png" alt="Github"></a>
+            </div>
+            <div class="footer-rss-logo">
+                <a href="https://rs.school/"><img class="footer-rss" src="img/RSS.jpg" alt="RS School"></a>
+            </div>
+            <div class="footer-copyright">© 2022</div>
+        </div>
+    </footer>
+</body>
+
+</html>
