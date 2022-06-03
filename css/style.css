@@ -1,0 +1,181 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap');
+
+/* COMMON */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+}
+
+.main {
+    background-color: #fafafa;
+}
+
+section {
+    border-bottom: 1px solid #E5E9F2;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul li img {
+    padding-right: 5px;
+}
+
+/* HEADER + NAV */
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 73px;
+    border-bottom: 1px solid #E5E9F2;
+}
+
+.header-container {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    font-weight: 700;
+    font-size: 18px;
+    color: #18191F;
+    line-height: 20px;
+}
+
+.nav a {
+    color: #18191F;
+    margin-right: 30px;
+    transition: color 0.2s ease-in;
+}
+
+.nav a:hover,
+.section-intro__about-me a:hover {
+    color: #ff0000;
+}
+
+.nav a:last-child {
+    margin-right: 0;
+}
+
+/* MAIN */
+
+.main-container {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.caption {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.contacts-list li,
+.skills-list li,
+.languages li,
+.section-education li {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.contacts-list li:last-child, 
+.skills-list li:last-child
+.languages li:last-child, 
+.section-education li:last-child {
+
+    padding-bottom: 0;
+} 
+
+/* SECTION INTRO */
+
+.title {
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.section-intro {
+    display: flex;
+    align-items: center;
+}
+
+.section-intro__photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-intro__about-me {
+    max-width: 710px;
+    padding-left: 10px;
+}
+
+.section-intro__about-me a {
+    color: #18191F;
+    transition: color 0.2s ease-in;
+}
+
+/* CONTACTS & SKILLS */
+
+.section-contacts-skills,
+.section-education-languages {
+    justify-content: space-evenly;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+/* EDU & LANG */
+
+/* CODE EXAMPLE */
+
+.section-code {
+    padding-top: 15px;
+}
+
+.code {
+    font-family: monospace, monospace;
+    padding: 5px 20px;
+    background-color: #cacaca;
+}
+
+.section-code p {
+    font-style: italic;
+}
+
+
+/* FOOTER */
+
+.footer {
+    background: #000;
+    height: 70px;
+    color: #D9DBE1;
+    display: flex;
+    align-items: center;
+}
+
+.footer-container {
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-rss-logo img {
+    width: 120px;
+}
+
+.footer-github-logo img {
+    width: 40px;
+}
